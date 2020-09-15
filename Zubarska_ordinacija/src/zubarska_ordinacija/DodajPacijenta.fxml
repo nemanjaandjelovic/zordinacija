@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="cmbDrzava" prefHeight="620.0" prefWidth="447.0" style="-fx-background-color: #69bdd2;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zubarska_ordinacija.DodajPacijentaController">
+   <children>
+      <TextField fx:id="txtIme" layoutX="94.0" layoutY="106.0" prefHeight="32.0" prefWidth="260.0" />
+      <TextField fx:id="txtPrezime" layoutX="94.0" layoutY="170.0" prefHeight="32.0" prefWidth="260.0" />
+      <TextField fx:id="txtBrojTelefona" layoutX="94.0" layoutY="233.0" prefHeight="32.0" prefWidth="260.0" />
+      <Label layoutX="210.0" layoutY="85.0" text="IME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="190.0" layoutY="149.0" text="PREZIME" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="164.0" layoutY="212.0" text="BROJ TELEFONA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="152.0" layoutY="274.0" text="BROJ TELEFONA (2)" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="338.0" text="EMAIL" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="191.0" layoutY="403.0" text="DRŽAVA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="201.0" layoutY="467.0" text="GRAD" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtBrojTelefona2" layoutX="94.0" layoutY="295.0" prefHeight="32.0" prefWidth="260.0" />
+      <TextField fx:id="txtEmail" layoutX="94.0" layoutY="359.0" prefHeight="32.0" prefWidth="260.0" />
+      <Button fx:id="btnDodajPacijenta" layoutX="19.0" layoutY="534.0" mnemonicParsing="false" onAction="#btnDodajPacijentaClick" onMouseEntered="#dodajPacijentaHover" onMouseExited="#dodajPacijentaExit" prefHeight="64.0" prefWidth="407.0" style="-fx-background-color: #69bdd2; -fx-background-radius: 25; -fx-border-color: #cce7e8; -fx-border-radius: 15; -fx-border-width: 10;" text="DODAJ PACIJENTA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font></Button>
+      <Label layoutX="134.0" layoutY="24.0" text="DODAJ PACIJENTA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="drzava" layoutX="124.0" layoutY="428.0" prefHeight="25.0" prefWidth="196.0" />
+      <ComboBox fx:id="grad" layoutX="124.0" layoutY="488.0" prefHeight="25.0" prefWidth="196.0" />
+   </children>
+</AnchorPane>

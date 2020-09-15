@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="800.0" prefWidth="1100.0" style="-fx-background-color: fff;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="zubarska_ordinacija.DodajIntervencijuController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#69bdd2" height="45.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="1100.0" />
+      <ImageView fitHeight="493.0" fitWidth="400.0" layoutX="600.0" layoutY="155.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/zubi_bez_zuba.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="treciKutnjakGoreLevo" fitHeight="45.0" fitWidth="46.0" layoutX="606.0" layoutY="348.0" onMouseClicked="#zub_8" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_levo_8.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="921.0" layoutY="153.0" text="Centralni sekutić">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="922.0" layoutY="188.0" text="Lateralni sekutić">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="921.0" layoutY="217.0" text="Očnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="922.0" layoutY="246.0" text="Prvi pretkutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="922.0" layoutY="273.0" text="Drugi pretkutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="921.0" layoutY="299.0" text="Prvi kutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="922.0" layoutY="326.0" text="Drugi kutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="924.0" layoutY="396.0" text="Treći kutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="925.0" layoutY="626.0" text="Centralni sekutić">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="926.0" layoutY="599.0" text="Lateralni sekutić">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="926.0" layoutY="569.0" text="Očnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="925.0" layoutY="539.0" text="Prvi pretkutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="924.0" layoutY="512.0" text="Drugi pretkutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="925.0" layoutY="483.0" text="Prvi kutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="924.0" layoutY="453.0" text="Drugi kutnjak">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="drugiKutnjakGoreLevo" fitHeight="45.0" fitWidth="46.0" layoutX="609.0" layoutY="317.0" onMouseClicked="#zub_7" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_levo_7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prviKutnjakGoreLevo" fitHeight="45.0" fitWidth="46.0" layoutX="614.0" layoutY="288.0" onMouseClicked="#zub_6" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_levo_6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="drugiPretkutnjakGoreLevo" fitHeight="45.0" fitWidth="46.0" layoutX="622.0" layoutY="260.0" onMouseClicked="#zub_5" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_levo_5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prviPretkutnjakGoreLevo" fitHeight="45.0" fitWidth="46.0" layoutX="630.0" layoutY="238.0" onMouseClicked="#zub_4" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_levo_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ocnjakGoreLevo" fitHeight="45.0" fitWidth="46.0" layoutX="644.0" layoutY="215.0" onMouseClicked="#zub_3" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_levo_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lateralniSekuticGoreLevo" fitHeight="45.0" fitWidth="46.0" layoutX="663.0" layoutY="199.0" onMouseClicked="#zub_2" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_levo_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="centralniSekuticGoreLevo" fitHeight="45.0" fitWidth="46.0" layoutX="689.0" layoutY="189.0" onMouseClicked="#zub_1" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_levo_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="centralniSekuticGoreDesno" fitHeight="45.0" fitWidth="46.0" layoutX="719.0" layoutY="189.0" onMouseClicked="#zub_9" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_desno_01.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lateralniSekuticGoreDesno" fitHeight="45.0" fitWidth="46.0" layoutX="744.0" layoutY="199.0" onMouseClicked="#zub_10" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_desno_02.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ocnjakGoreDesno" fitHeight="45.0" fitWidth="46.0" layoutX="763.0" layoutY="216.0" onMouseClicked="#zub_11" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_desno_03.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prviPretkutnjakGoreDesno" fitHeight="45.0" fitWidth="46.0" layoutX="776.0" layoutY="238.0" onMouseClicked="#zub_12" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_desno_04.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="drugiPretkutnjakGoreDesno" fitHeight="45.0" fitWidth="46.0" layoutX="785.0" layoutY="260.0" onMouseClicked="#zub_13" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_desno_05.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prviKutnjakGoreDesno" fitHeight="45.0" fitWidth="46.0" layoutX="793.0" layoutY="287.0" onMouseClicked="#zub_14" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_desno_06.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="drugiKutnjakGoreDesno" fitHeight="45.0" fitWidth="46.0" layoutX="798.0" layoutY="317.0" onMouseClicked="#zub_15" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_desno_07.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="treciKutnjakGoreDesno" fitHeight="45.0" fitWidth="46.0" layoutX="800.0" layoutY="348.0" onMouseClicked="#zub_16" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/gore_desno_08.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="treciKutnjakDoleLevo" fitHeight="45.0" fitWidth="46.0" layoutX="601.0" layoutY="417.0" onMouseClicked="#zub_24" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_levo_8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="drugiKutnjakDoleLevo" fitHeight="45.0" fitWidth="46.0" layoutX="604.0" layoutY="448.0" onMouseClicked="#zub_23" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_levo_7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prviKutnjakDoleLevo" fitHeight="45.0" fitWidth="46.0" layoutX="611.0" layoutY="477.0" onMouseClicked="#zub_22" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_levo_6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="drugiPretkutnjakDoleLevo" fitHeight="45.0" fitWidth="46.0" layoutX="620.0" layoutY="503.0" onMouseClicked="#zub_21" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_levo_5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prviPretkutnjakDoleLevo" fitHeight="45.0" fitWidth="46.0" layoutX="633.0" layoutY="524.0" onMouseClicked="#zub_20" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_levo_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ocnjakDoleLevo" fitHeight="45.0" fitWidth="46.0" layoutX="649.0" layoutY="543.0" onMouseClicked="#zub_19" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_levo_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lateralniSekuticDoleLevo" fitHeight="45.0" fitWidth="46.0" layoutX="667.0" layoutY="559.0" onMouseClicked="#zub_18" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_levo_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="centralniSekuticDoleLevo" fitHeight="45.0" fitWidth="46.0" layoutX="690.0" layoutY="566.0" onMouseClicked="#zub_17" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_levo_1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="treciKutnjakDoleDesno" fitHeight="45.0" fitWidth="46.0" layoutX="806.0" layoutY="416.0" onMouseClicked="#zub_32" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_desno_8.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="drugiKutnjakDoleDesno" fitHeight="45.0" fitWidth="46.0" layoutX="803.0" layoutY="448.0" onMouseClicked="#zub_31" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_desno_7.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prviKutnjakDoleDesno" fitHeight="45.0" fitWidth="46.0" layoutX="796.0" layoutY="478.0" onMouseClicked="#zub_30" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_desno_6.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="drugiPretkutnjakDoleDesno" fitHeight="45.0" fitWidth="46.0" layoutX="787.0" layoutY="503.0" onMouseClicked="#zub_29" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_desno_5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="prviPretkutnjakDoleDesno" fitHeight="45.0" fitWidth="46.0" layoutX="775.0" layoutY="524.0" onMouseClicked="#zub_28" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_desno_4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="ocnjakDoleDesno" fitHeight="45.0" fitWidth="46.0" layoutX="759.0" layoutY="543.0" onMouseClicked="#zub_27" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_desno_3.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="lateralniSekuticDoleDesno" fitHeight="45.0" fitWidth="46.0" layoutX="740.0" layoutY="558.0" onMouseClicked="#zub_26" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_desno_2.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="centralniSekuticDoleDesno" fitHeight="45.0" fitWidth="46.0" layoutX="716.0" layoutY="565.0" onMouseClicked="#zub_25" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Slike/dole_desno_1.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="423.0" text="NOVA INTERVENCIJA" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtNaslov" alignment="TOP_CENTER" layoutX="41.0" layoutY="84.0" prefHeight="31.0" prefWidth="491.0" promptText="Naslov intervencije">
+         <font>
+            <Font size="15.0" />
+         </font></TextField>
+      <TextArea fx:id="txtOpis" layoutX="40.0" layoutY="136.0" prefHeight="570.0" prefWidth="491.0" promptText="Opis intervencije">
+         <font>
+            <Font size="20.0" />
+         </font></TextArea>
+      <Button fx:id="btnSacuvaj" layoutX="143.0" layoutY="724.0" mnemonicParsing="false" onAction="#btnSacuvajClick" onMouseEntered="#sacuvajIntervencijuHover" onMouseExited="#sacuvajIntervencijuExit" prefHeight="51.0" prefWidth="286.0" style="-fx-background-color: white; -fx-border-radius: 15; -fx-background-radius: 25; -fx-border-color: #69bdd2; -fx-border-width: 10;" text="SAČUVAJ INTERVENCIJU">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
